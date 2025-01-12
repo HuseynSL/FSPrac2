@@ -20,7 +20,7 @@ function Add() {
         initialValues={{ image: "", name: "", job: "" }}
         validationSchema={SignupSchema}
         onSubmit={(values) => {
-          axios.post("http://localhost:3001/member", values).then(() => navigate(-1));
+          axios.post("http://localhost:3001/membern ", values).then(() => navigate(-1));
         }}
       >
         {({ errors, touched }) => (

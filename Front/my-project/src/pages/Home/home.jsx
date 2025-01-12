@@ -1,7 +1,7 @@
 import React from 'react'
 import Services from '../../components/Services'
 import BacgroundServ from '../../components/bacgroundServ'
-import Members from '../../components/members'
+import Members from '../../components/Members'
 import Slider from '../../components/slider'
 
 function Home() {
