@@ -6,7 +6,7 @@ const dotenv=require("dotenv")
 let mongoose=require("mongoose")
 
 dotenv.config()
-app.use(cors());
+app.use(cors());        
 app.use(bodyParser.json())  ;
 
 mongoose.connect(process.env.MONGO_URL)
